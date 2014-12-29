@@ -3,9 +3,8 @@ var GuessNumber = require('../js/comparenumber.js');
 
 describe('GuessNumber',function() {
   describe('#CompareNumber', function() {
-    var compare;
 
-    compare = new GuessNumber();
+    var compare = new GuessNumber();
 
     it('should get the right compare', function() {
       expect(compare.CompareNumber([1,2,3,4],[1,2,3,4])).toEqual('4A0B');

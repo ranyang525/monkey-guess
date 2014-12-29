@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ranyang/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ranyang/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'readline',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json node.js@0.0.0 No repository field.
+5 verbose cache add [ 'readline', null ]
+6 verbose cache add name=undefined spec="readline" args=["readline",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'readline',
+7 verbose parsed url   path: 'readline',
+7 verbose parsed url   href: 'readline' }
+8 silly lockFile 2d9e02a8-readline readline
+9 verbose lock readline /home/ranyang/.npm/2d9e02a8-readline.lock
+10 silly lockFile 2d9e02a8-readline readline
+11 silly lockFile 2d9e02a8-readline readline
+12 verbose addNamed [ 'readline', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile c1dd5758-readline readline@
+15 verbose lock readline@ /home/ranyang/.npm/c1dd5758-readline.lock
+16 silly addNameRange { name: 'readline', range: '*', hasData: false }
+17 verbose request where is /readline
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 743ad2ec4c73951b
+20 verbose url raw /readline
+21 verbose url resolving [ 'https://registry.npmjs.org/', './readline' ]
+22 verbose url resolved https://registry.npmjs.org/readline
+23 verbose request where is https://registry.npmjs.org/readline
+24 info trying registry request attempt 1 at 22:53:21
+25 http GET https://registry.npmjs.org/readline
+26 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+27 info trying registry request attempt 2 at 22:53:51
+28 http GET https://registry.npmjs.org/readline
+29 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+30 info trying registry request attempt 3 at 22:55:11
+31 http GET https://registry.npmjs.org/readline
+32 silly lockFile c1dd5758-readline readline@
+33 silly lockFile c1dd5758-readline readline@
+34 error network getaddrinfo ENOTFOUND
+34 error network This is most likely not a problem with npm itself
+34 error network and is related to network connectivity.
+34 error network In most cases you are behind a proxy or have bad network settings.
+34 error network
+34 error network If you are behind a proxy, please make sure that the
+34 error network 'proxy' config is set properly.  See: 'npm help config'
+35 error System Linux 3.13.0-24-generic
+36 error command "/home/ranyang/.nvm/v0.10.35/bin/node" "/home/ranyang/.nvm/v0.10.35/bin/npm" "install" "readline" "--save"
+37 error cwd /home/ranyang/Projects/monkey_guess
+38 error node -v v0.10.35
+39 error npm -v 1.4.28
+40 error syscall getaddrinfo
+41 error code ENOTFOUND
+42 error errno ENOTFOUND
+43 verbose exit [ 1, true ]
